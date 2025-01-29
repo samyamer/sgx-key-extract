@@ -18,3 +18,14 @@ We start at the most significant of K. with bit =255
 bit = 255.
 As an edge case for the first window we zero extend K so that bits following bit 255 fit the window (see diagram).
 
+'''
+while bit >=5
+    wvalue = k[bit:bit+6] (yes 6)
+    // This means that the least significant bit of the previous window is the most significant bit of the current window (this is an overlap)
+    bit -=5
+
+    sign, digit = booth_recode(wvalue)
+    // sign and digit is what has been recovered 
+'''
+
+![alt text](https://github.com/samyamer/sgx-key-extract/blob/main/IMG_2550.jpg)
