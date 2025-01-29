@@ -28,4 +28,21 @@ while bit >=5
     // sign and digit is what has been recovered 
 '''
 
+The windows for our k example are as such:
+Again, Bit denotes the starting index of the window with the bits indexed from 1 to 256 with 256 as the most significant.
+
+| Bit      | Wvalue (hex) |
+|----------|----------|
+| 255   | 2  |
+| 250   | a  |
+| 245   | a  |
+| 240   | 3  |
+| 235   | 2E  |
+| 230   | 1D  |
+| 225   | 31  |
+| 220   | 29  |
+
+
 ![alt text](https://github.com/samyamer/sgx-key-extract/blob/main/IMG_2550.jpg)
+
+![alt text](https://github.com/samyamer/sgx-key-extract/blob/main/Screenshot%20From%202025-01-29%2018-29-28.png)
