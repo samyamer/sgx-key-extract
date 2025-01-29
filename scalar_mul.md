@@ -17,7 +17,7 @@ The window slicing goes as follows:
 
 We start at the most significant of K. with bit =255
 
-\As an edge case for the first window we zero extend K so that bits following bit 255 fit the window (see diagram).
+As an edge case for the first window we zero extend K so that bits following bit 255 fit the window (see diagram).
 
 ''' 
 
