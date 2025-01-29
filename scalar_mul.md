@@ -19,6 +19,7 @@ We start at the most significant of K. with bit =255
 \As an edge case for the first window we zero extend K so that bits following bit 255 fit the window (see diagram).
 
 ''' 
+
     bit = 255
     while bit >=5
         wvalue = k[bit:bit+6] (yes 6) // so for bit 250 the wvalue will be made of bit 255,254,253,252,251,250. With 255 as the most significant
