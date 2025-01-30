@@ -37,7 +37,7 @@ We are left with the edge case of the final window. Since the last iteration of 
     wvalue=k[1:6] // bit 5,4,3,2,1 (again the most significant is bit 5, which is the overlap)
 
 The windows for our k example are as such:
-Again, Bit denotes the starting index of the window with the bits indexed from 1 to 256 with 256 as the most significant.
+(Again, Bit denotes the starting index of the window with the bits indexed from 1 to 256 with 256 as the most significant)
 
 | Bit      | Wvalue (hex) |
 |----------|----------|
