@@ -33,9 +33,9 @@ As an edge case for the first window we zero extend K so that bits following bit
 ```
 We are left with the edge case of the final window. Since the last iteration of the loop is at bit 5, bits 1,2,3,and 4 are not yet included in the multiplication. Their window value is taken as:
 
-'''
+```
     wvalue=k[1:6] // bit 5,4,3,2,1 (again the most significant is bit 5, which is the overlap)
-
+```
 The windows for our k example are as such:
 (Again, Bit denotes the starting index of the window with the bits indexed from 1 to 256 with 256 as the most significant)
 
